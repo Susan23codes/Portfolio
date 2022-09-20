@@ -4,44 +4,51 @@
   height: 35vh;
   width: 80vw;
   display: flex;
+  flex-wrap: no-wrap;
 }
 
 .sidebar {
   /* border: 2px solid; */
   width: 20vw;
   display: flex;
+  flex-wrap:wrap;
   flex-direction: column;
   align-items:center;
   justify-content:space-around;
-  font-size: 25px;
+  /* font-size: 1.5rem; */
   color: white;
   height: 35vh;
+  /* padding-top: 40px; */
   background-color: rgb(87, 92, 92);
 
 }
 
 .sidebar-and-header {
   display: flex; 
+  flex-wrap: wrap;
   
 }
 
 .headshot {
-  height: auto;
-  width: 20vw;
+  height: 20vw;
+  max-width: 20vw;
   margin-left: 3rem;
+  border-radius: 50%;
+  margin-top:5px;
 }
 
 .my-info {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   margin-left: 3rem;
-  font-size: 20px;
+  font-size: .75rem;
   color: white;
-
 }
 
 .icons {
   display: flex;
+  flex-wrap: wrap;
   /* border: 2px solid; */
   width: 150px;
   justify-content: space-around;
@@ -50,6 +57,9 @@
 
 .about-me-main {
   /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   width: 80vw;
   margin-left: 20vw;
   padding-top: 30px;
@@ -60,9 +70,13 @@
 
 .about-me-skills {
   display: flex;
+  flex-wrap: wrap;
   /* border: 2px solid; */
-  font-size: 20px;
+  font-size: 1.25vw;
   justify-content: space-around;
+  width: 65vw;
+  margin-left: 3rem;
+
 }
 
 .skill-name {
@@ -71,5 +85,54 @@
   background-color: rgb(165, 215, 215);
   color:rgb(78, 74, 74);
   border-radius: 5px;
+}
 
+.education {
+  /* font-size: 1.75vw; */
+  margin-left: 3rem;
+  border-bottom: 2px solid;
+  margin-right: 3rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border:2px solid; */
+}
+.project-pic-one {
+  max-width: 22vw;
+  height: auto;
+  border-radius: 5%;
+  margin-right: 2rem;
+  /* border:2px solid; */
+}
+
+.project-pic-two {
+  max-width: 24vw;
+  height: auto;
+  border-radius: 5%;
+  /* border:2px solid; */
+}
+
+.project-pic-and-description {
+  display: flex;
+  flex-direction: column;
+  /* border:2px solid; */
+  max-width: 30vw
+}
+
+.projects { display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin-left: 20vw;
+  padding-top: 30px;
+  height: 65vh;
+  color: white;
+  background-color: rgb(105, 148, 148);
+}
+
+.project-links {
+  display: flex;
 }

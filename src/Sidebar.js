@@ -8,9 +8,9 @@ export default function Sidebar() {
 
             <div className="sidebar">
                 <Link to={'/'} style={{textDecoration:'none', color:'white'}}>Me</Link>
-                <Link to={'/'} style={{textDecoration:'none', color:'white'}}>Projects</Link>
-                <Link to={'/'} style={{textDecoration:'none', color:'white'}}>Work</Link>
-                <Link to={'/'} style={{textDecoration:'none', color:'white'}}>Education</Link>
+                <Link to={'/projects'} style={{textDecoration:'none', color:'white'}}>Projects</Link>
+                <Link to={'/experience'} style={{textDecoration:'none', color:'white'}}>Experience</Link>
+                <Link to={'/education'} style={{textDecoration:'none', color:'white'}}>Education</Link>
             </div>
 
         </>
