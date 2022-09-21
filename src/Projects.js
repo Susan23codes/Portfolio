@@ -26,24 +26,24 @@ export default function Projects() {
                         <img className="project-pic-two" src="NASA App.png" alt="screen shot of NASA shot of the day" />
                         <p>NASA's Shot of the Day</p>
                         <div className="project-links">
-                            <a href="https://github.com/Susan23codes/Plant-Space" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
-                            <a href="https://super-semolina-259059.netlify.app/" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
+                            <a href="https://github.com/Susan23codes/NASA-Shot-of-the-Day" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
+                            <a href="https://nasa-shot-of-the-day.netlify.app/" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
                         </div>
                     </div>
                     <div className="project-pic-and-description">
                         <img className="project-pic-two" src="React Trivia.png" alt="screen shot of PlantSpace homepage" />
                         <p>A React Trivia App--answer questions from many different categories!</p>
                         <div className="project-links">
-                            <a href="https://github.com/Susan23codes/Plant-Space" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
-                            <a href="https://super-semolina-259059.netlify.app/" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
+                            <a href="https://github.com/Susan23codes/React-Trivia" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
+                            <a href="https://joyful-kangaroo-14de94.netlify.app/" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
                         </div>
                     </div>
                     <div className="project-pic-and-description">
                         <img className="project-pic-two" src="Django Music.png" alt="screen shot album covers and album names" />
                         <p>A Django Music App that hits the iTunes API to dynamically render album covers</p>
                         <div className="project-links">
-                            <a href="https://github.com/Susan23codes/Plant-Space" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
-                            <a href="https://super-semolina-259059.netlify.app/" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
+                            <a href="https://github.com/Susan23codes/Django-Music" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
+                            <a href="#" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
                         </div>
                     </div>
                 </div>
