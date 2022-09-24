@@ -46,6 +46,14 @@ export default function Projects() {
                             <a href="#" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
                         </div>
                     </div>
+                    <div className="project-pic-and-description">
+                        <img className="project-pic-two" src="JS Calculator.png" alt="screen shot of a calculator" />
+                        <p>A simple calculator made with JavaScript</p>
+                        <div className="project-links">
+                            <a href="https://github.com/Susan23codes/JS-Calculator" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
+                            <a href="https://celadon-hotteok-12b528.netlify.app/" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
