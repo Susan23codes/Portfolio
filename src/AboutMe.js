@@ -5,7 +5,7 @@ export default function AboutMe() {
         <>
             <div className="about-me-main">
                 <h2 style={{ marginLeft: '3rem' }}>About Me</h2>
-                <div style={{ fontSize: '.75rem', marginLeft: '3rem' }}>I am a Software Developer
+                <div style={{ fontSize: '.75rem', marginLeft: '3rem', marginRight: '3rem' }}>I am a Software Developer
                     experienced in HTML, CSS, JavaScript, React, Python, and Django.  I'm
                     passionate about using technology to solve business challenges.  Also
                     an avid puzzler, I enjoy bringing my problem-solving skills to the world of tech.
