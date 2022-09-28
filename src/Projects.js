@@ -21,7 +21,7 @@ export default function Projects() {
                         <div className="project-description-and-sites">
                             <p>PlantSpace, a forum for all things green!  A React app with a Django backend, this app allows you to ask your plant questions, receive answers, and search.</p>
                             <div className="project-links">
-                                <a href="https://github.com/Susan23codes/Plant-Space" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
+                                <a href="https://github.com/Susan23codes/PlantSpace" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
                                 <a href="https://super-semolina-259059.netlify.app/" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
                             </div>
                         </div>

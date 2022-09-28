@@ -20,7 +20,7 @@
   height: 35vh;
   /* padding-top: 40px; */
   background-color: rgb(87, 92, 92);
-  
+
 
 }
 
@@ -31,8 +31,8 @@
 }
 
 .headshot {
-  height: 20vw;
-  max-width: 20vw;
+  height: 19vw;
+  max-width: 19vw;
   margin-left: 3rem;
   border-radius: 50%;
   margin-top:5px;
@@ -104,6 +104,7 @@
   margin-right: 2em;
   margin-left: 1em;
   
+  
 }
 
 .project-pic-one {
@@ -138,12 +139,12 @@
   width: 80vw;
   margin-left: 20vw;
   padding-top: 30px;
-  /* height: 65vh;  */
+  height: 65vh; 
   color: white;
   background-color: rgb(105, 148, 148);
   /* border: 2px solid; */
-  /* overflow: scroll;
-  height: 65vh */
+  overflow: scroll; 
+  /* height: 65vh */ 
 }
 
 .project-links {
