@@ -4,8 +4,18 @@ export default function Projects() {
     return (
         <>
             <div className="projects">
-                <h2 style={{ marginLeft: '3rem', marginBottom: '2rem' }}>Projects</h2>
+                <h2 style={{ marginLeft: '3rem', marginBottom: '2 rem' }}>Projects</h2>
                 <div className="projects-container">
+                <div className="project-pic-and-description">
+                        <img className="project-pic-one" src="/bloodPressure.png" alt="screenshot of Blood Pressure Tracker landing page" />
+                        <div className="project-description-and-sites">
+                            <p>A solo project, the Blood Pressure Tracker allows a user to enter BP readings and track their results.  Utilizes React Chart.js and React AG-Grid.  Made with DRF on the backend.</p>
+                            <div className="project-links">
+                                <a href="https://github.com/Susan23codes/Bloodpressure-Tracker" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
+                                <a href="https://blood-pressure-tracker.netlify.app/" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
+                            </div>
+                        </div>
+                    </div>
                     <div className="project-pic-and-description">
                         <img className="project-pic-one" src="/OnMyWatch.png" alt="screenshot of On My Watch landing page" />
                         <div className="project-description-and-sites">
@@ -21,7 +31,7 @@ export default function Projects() {
                         <div className="project-description-and-sites">
                             <p>PlantSpace, a forum for all things green!  A React app with a Django backend, this app allows you to ask your plant questions, receive answers, and search.</p>
                             <div className="project-links">
-                                <a href="https://github.com/Susan23codes/Plant-Space" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
+                                <a href="https://github.com/Susan23codes/PlantSpace" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>GitHub&ensp;| </span></a>
                                 <a href="https://super-semolina-259059.netlify.app/" target="_blank" style={{ color: 'white', textDecoration: "none" }}><span>&ensp; Site</span></a>
                             </div>
                         </div>
