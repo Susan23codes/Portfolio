@@ -90,11 +90,16 @@
 
 .education {
   /* font-size: 1.75vw; */
-  margin-left: 3rem;
+  margin-left: 3em;
   border-bottom: 2px solid;
-  margin-right: 3rem;
+  margin-right: 3em;
 }
+ li {
+  list-style-type: disc;
+  list-style-position: outside;
+  text-indent: -1.3em
 
+ }
 .projects-container {
   display: flex;
   flex-direction: column;
